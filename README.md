@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-<https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM>
+Follow links on this page to learn more: <https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM>
 
 ```html
 <div>
