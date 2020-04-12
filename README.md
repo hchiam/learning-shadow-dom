@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+Shadow DOM [enables scoped elements and scoped CSS](https://medium.com/duomly-blockchain-online-courses/shadow-dom-vs-virtual-dom-what-is-the-difference-f2611da536ab).
+
 Follow links on this page to learn more: <https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM>
 
 ```html
