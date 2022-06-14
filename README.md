@@ -6,6 +6,8 @@ Shadow DOM [enables scoped elements and scoped CSS](https://medium.com/duomly-bl
 
 Shadow DOM [isolates DOM and scopes CSS](https://web.dev/shadowdom-v1/).
 
+For security reasons, [you can't attach shadow DOM to some elements](<https://developer.mozilla.org/en-US/docs/Web/API/Element/attachShadow#:~:text=there%20are%20some%20that%20can't%20have%20a%20shadow%20dom%20for%20security%20reasons%20(for%20example%20%3Ca%3E).>).
+
 Follow links on this page to learn more: <https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM>
 
 ```html
