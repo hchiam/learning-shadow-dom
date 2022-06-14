@@ -8,14 +8,17 @@ Follow links on this page to learn more: <https://developer.mozilla.org/en-US/do
 
 ```html
 <div>
-  <p>Hi! Shadow elements encapsulate/insulate inner parts. Think <code>&lt;video&gt;</code> components.</p>
+  <p>
+    Hi! Shadow elements encapsulate/insulate inner parts. Think
+    <code>&lt;video&gt;</code> components.
+  </p>
   <div id="shadow-host"></div>
 </div>
 <script>
-  const elementRef = document.getElementById('shadow-host');
-  const shadowRoot = elementRef.attachShadow({mode: 'open'});
-  const paragraph = document.createElement('p');
-  paragraph.innerText = 'Paragraph inside shadow root.';
+  const elementRef = document.getElementById("shadow-host");
+  const shadowRoot = elementRef.attachShadow({ mode: "open" });
+  const paragraph = document.createElement("p");
+  paragraph.innerText = "Paragraph inside shadow root.";
   shadowRoot.appendChild(paragraph);
 </script>
 <style>
