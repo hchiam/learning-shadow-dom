@@ -17,12 +17,17 @@ Follow links on this page to learn more: <https://developer.mozilla.org/en-US/do
     <code>&lt;video&gt;</code> components.
   </p>
   <div id="shadow-host"></div>
+  <p>
+    The styles in the shadow DOM don't leak out so this paragraph doesn't get
+    affected
+  </p>
 </div>
 <script>
   const elementRef = document.getElementById("shadow-host");
   const shadowRoot = elementRef.attachShadow({ mode: "open" });
   const paragraph = document.createElement("p");
   paragraph.innerText = "Paragraph inside shadow root.";
+  shadowRoot.innerHTML = `<style>p{background:navy;}</style>`;
   shadowRoot.appendChild(paragraph);
 </script>
 <style>
